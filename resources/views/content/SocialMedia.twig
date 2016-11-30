@@ -1,0 +1,27 @@
+<link href="{{ plugin_path('SocialMedia') }}/css/shariff.complete.css" rel="stylesheet">
+<link href="{{ plugin_path('SocialMedia') }}/css/SocialStyles.css" rel="stylesheet">
+<script src="{{ plugin_path('SocialMedia') }}/js/shariff.complete.js"></script>
+
+{% set socialMediaData = config("SocialMedia.social.data") | split(', ') %}
+{% set dataServices = "" %}
+{% set socialText = config("SocialMedia.social.text") %}
+
+<div class="shariff socialbar hidden-sm-down pull-xs-left"
+
+    {% for i in 0..socialMediaData|length %}
+        {% if i != socialMediaData|length %}
+            {% if i == 0 %}
+                {% set dataServices = dataServices ~ "\"" ~ socialMediaData[i] ~ "\"" %}
+            {% else %}
+                {% set dataServices = dataServices ~ ",\"" ~ socialMediaData[i] ~ "\"" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    data-services='[{{ dataServices }}]'
+    data-title="{{ socialText }}"
+    data-url="das ist ein test"
+    data-media-url=""
+    data-theme="minimal">
+
+</div>

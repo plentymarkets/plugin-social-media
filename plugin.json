@@ -1,0 +1,18 @@
+{
+  "name"              :"SocialMedia",
+  "description"       :"Plentymarkets plugin for social media",
+  "namespace"         :"SocialMedia",
+  "author"            :"plentymarkets GmbH",
+  "keywords"          : ["plentymarkets", "plugins", "social", "media", "template"],
+  "type"              :"template",
+  "require"           : [],
+  "serviceProvider"   :"SocialMedia\\Providers\\SocialMediaServiceProvider",
+  "dataProviders"     :
+  [
+    {
+      "key":"SocialMedia\\Containers\\SocialMediaContainer",
+      "name":"SocialMedia",
+      "description":""
+    }
+  ]
+}
