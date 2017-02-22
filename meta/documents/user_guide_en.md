@@ -45,3 +45,7 @@ You have multiple options to integrate social media in your online store. For th
 3. Go to the **Social media buttons** area. 
 4. Select one, several or **ALL** containers in which you want to display the buttons, e.g. **Header: Left header container**. 
 5. **Save** the settings.<br /> → The social media will be displayed in the selected containers in the online store.
+
+## License
+
+This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. – find further information in the [LICENSE.md](https://github.com/plentymarkets/plugin-social-media/blob/master/LICENSE.md).

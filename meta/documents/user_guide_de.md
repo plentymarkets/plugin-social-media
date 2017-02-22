@@ -46,3 +46,7 @@ Hierfür sind in den Templates in Ceres an relevanten Stellen Container hinterle
 3. Wählen Sie den Bereich **Social media buttons**.
 4. Wählen Sie einen, mehrere oder **ALLE** Container, in denen Sie die Buttons anzeigen möchten, z.B. **Header: Left header container**.
 5. **Speichern** Sie die Einstellungen.<br /> → Die Sozialen Medien werden im gewählten Container im Webshop angezeigt.
+
+## Lizenz
+
+Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen finden Sie in der [LICENSE.md](https://github.com/plentymarkets/plugin-social-media/blob/master/LICENSE.md).
