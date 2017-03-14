@@ -1,8 +1,8 @@
 [
   {
-    "tab"                           : "SocialMedia",
+    "tab"                           : "Social media settings",
     "key"                           : "social.data",
-    "label"                         : "Show social media icons",
+    "label"                         : "Show social media buttons",
     "type"                          : "multi_select",
     "possibleValues"                :
     {
@@ -12,18 +12,18 @@
       "linkedin"                    : "LinkedIn",
       "pinterest"                   : "Pinterest",
       "xing"                        : "Xing",
-      "whatsapp"                    : "Whatsapp",
+      "whatsapp"                    : "WhatsApp",
       "tumblr"                      : "Tumblr",
       "reddit"                      : "Reddit"
     },
     "default"                       : "twitter, facebook, googleplus, pinterest"
   },
   {
-    "tab"                           : "SocialMedia",
+    "tab"                           : "Social media settings",
     "key"                           : "social.text",
     "label"                         : "Social media text",
     "type"                          : "text",
-    "default"                       : "WOW! Look at this shop www.YOURSHOP.com"
+    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
   },
   {
     "tab"                           : "SocialMedia",

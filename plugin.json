@@ -1,18 +1,28 @@
 {
-  "name"              :"SocialMedia",
-  "description"       :"Plentymarkets plugin for social media",
-  "namespace"         :"SocialMedia",
-  "author"            :"plentymarkets GmbH",
-  "keywords"          : ["plentymarkets", "plugins", "social", "media", "template"],
-  "type"              :"template",
+  "version"           : "1.0.0",
+  "name"              : "SocialMedia",
+  "description"       : "plentymarkets plugin for social media.",
+  "author"            : "plentymarkets GmbH",
+  "license"           : "AGPL-3.0",
+  "pluginIcon"        : "icon_plugin_xs.png",
+  "price"             : 0.00,
+  "shortDescription"  : {"de": "Anzeige von Buttons für Soziale Medien im Webshop. ","en": "Display social media buttons in the online store."},
+  "authorIcon"        : "icon_author_xs.png",
+  "email"             : "sales@plentymarkets.com",
+  "phone"             : "+49 561 98 681 100",
+  "categories"        : ["3527"],
+  "keywords"          : ["plentymarkets", "plugins", "layout", "widget", "social media"],
+  "type"              : "general",
   "require"           : [],
-  "serviceProvider"   :"SocialMedia\\Providers\\SocialMediaServiceProvider",
+  "namespace"         : "SocialMedia",
+  "serviceProvider"   : "SocialMedia\\Providers\\SocialMediaServiceProvider",
+  "javaScriptFiles"   : [],
   "dataProviders"     :
   [
     {
-      "key":"SocialMedia\\Containers\\SocialMediaContainer",
-      "name":"SocialMedia",
-      "description":""
+      "key"           : "SocialMedia\\Containers\\SocialMediaContainer",
+      "name"          : "Social media buttons",
+      "description"   : "Display social media buttons in the online store."
     }
   ]
 }
