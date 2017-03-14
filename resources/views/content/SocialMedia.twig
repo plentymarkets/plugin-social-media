@@ -5,6 +5,8 @@
 {% set socialMediaData = config("SocialMedia.social.data") | split(', ') %}
 {% set dataServices = "" %}
 {% set socialText = config("SocialMedia.social.text") %}
+{% set socialUrl = config("SocialMedia.social.url") %}
+{% set socialMediaUrl = config("SocialMedia.social.mediaUrl") %}
 
 <div class="shariff socialbar hidden-sm-down pull-xs-left"
 
@@ -20,8 +22,8 @@
 
     data-services='[{{ dataServices }}]'
     data-title="{{ socialText }}"
-    data-url="das ist ein test"
-    data-media-url=""
+    data-url="{{ socialUrl }}"
+    data-media-url="{{ socialMediaUrl }}"
     data-theme="minimal">
 
 </div>

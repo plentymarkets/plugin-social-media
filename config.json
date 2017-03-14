@@ -10,13 +10,13 @@
       "facebook"                    : "Facebook",
       "googleplus"                  : "Google+",
       "linkedin"                    : "LinkedIn",
-      "printerest"                  : "Printerest",
+      "pinterest"                   : "Pinterest",
       "xing"                        : "Xing",
       "whatsapp"                    : "Whatsapp",
       "tumblr"                      : "Tumblr",
       "reddit"                      : "Reddit"
     },
-    "default"                       : "twitter, facebook, googleplus, reddit"
+    "default"                       : "twitter, facebook, googleplus, pinterest"
   },
   {
     "tab"                           : "SocialMedia",
@@ -24,5 +24,19 @@
     "label"                         : "Social media text",
     "type"                          : "text",
     "default"                       : "WOW! Look at this shop www.YOURSHOP.com"
+  },
+  {
+    "tab"                           : "SocialMedia",
+    "key"                           : "social.url",
+    "label"                         : "Social media URL to share",
+    "type"                          : "text",
+    "default"                       : "www.plentymarkets.eu"
+  },
+  {
+    "tab"                           : "SocialMedia",
+    "key"                           : "social.mediaUrl",
+    "label"                         : "Social media Image to share",
+    "type"                          : "text",
+    "default"                       : "URL to your image"
   }
 ]
