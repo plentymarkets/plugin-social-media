@@ -10,7 +10,7 @@
 {% set socialTheme = config("Social.Media.social.theme") %}
 {% set socialFixed = config("Social.Media.social.fixed") %}
 
-<div class="shariff socialbar singleItem">
+<div class="shariff socialbar singleItem"
 
     {% for i in 0..socialMediaData|length %}
         {% if i != socialMediaData|length %}
@@ -24,9 +24,9 @@
 
     data-services='[{{ dataServices }}]'
     {% if socialFixed == true %}
-    data-title="{{ socialText }}"
-    data-url="{{ app.request.uri }}"
-    data-media-url="{{ socialMediaUrl }}"
+      data-title="{{ socialText }}"
+      data-url="{{ app.request.uri }}"
+      data-media-url="{{ socialMediaUrl }}"
     {% endif %}
     data-theme="{{ socialTheme }}">
 
