@@ -29,12 +29,12 @@
     "tab"                           : "Social media settings",
     "key"                           : "social.theme",
     "label"                         : "Select the Theme of the Social Media Buttons, select only one!",
-    "type"                          : "multi_select",
+    "type"                          : "dropdown",
     "possibleValues"                :
     {
-      "standard"                     : "Standard",
-      "grey"                    : "Grey",
-      "white"                  : "White",
+      "standard"                   : "Standard",
+      "grey"                       : "Grey",
+      "white"                      : "White",
       "minimal"                    : "Minimal"
     },
     "default"                       : "Standard"

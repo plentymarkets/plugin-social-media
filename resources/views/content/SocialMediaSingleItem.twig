@@ -8,7 +8,6 @@
 {% set socialUrl = config("SocialMedia.social.url") %}
 {% set socialMediaUrl = config("SocialMedia.social.mediaUrl") %}
 {% set socialTheme = config("Social.Media.social.theme") %}
-{% set theme = "" %}
 {% set socialFixed = config("Social.Media.social.fixed") %}
 
 <div class="shariff socialbar singleItem"
@@ -29,15 +28,6 @@
       data-url="{{ app.request.uri }}"
       data-media-url="{{ socialMediaUrl }}"
     {% endif %}
-    {% for i in 0..socialTheme|length %}
-        {% if i != socialTheme|length %}
-            {% if i == 0 %}
-                {% set theme = dataServices ~ "\"" ~ socialTheme[i] ~ "\"" %}
-            {% else %}
-                {% set theme = dataServices ~ ",\"" ~ socialTheme[i] ~ "\"" %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-    data-theme="{{ theme }}">
+    data-theme="{{ socialTheme }}">
 
 </div>
