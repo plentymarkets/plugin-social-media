@@ -37,7 +37,7 @@
       "white"                      : "White",
       "minimal"                    : "Minimal"
     },
-    "default"                       : "Standard"
+    "default"                       : "standard"
   },
   {
     "tab"                           : "SocialMedia - Header",
@@ -99,7 +99,7 @@
       "white"                      : "White",
       "minimal"                    : "Minimal"
     },
-    "default"                       : "Standard"
+    "default"                       : "standard"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
