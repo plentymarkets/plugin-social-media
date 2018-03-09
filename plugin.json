@@ -23,6 +23,11 @@
       "key"           : "SocialMedia\\Containers\\SocialMediaContainer",
       "name"          : "Social media buttons",
       "description"   : "Display social media buttons in the online store."
+    },
+    {
+      "key"           : "SocialMedia\\Containers\\SocialMediaSingleItemContainer",
+      "name"          : "Social media buttons for SingleItem",
+      "description"   : "Display social media buttons in the online store on the SingleItem."
     }
   ]
 }
