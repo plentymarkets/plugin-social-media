@@ -98,7 +98,7 @@
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.fixed",
-    "label"                         : "Use fix Social Media URL and Image in SingleItem",
+    "label"                         : "Use fix Social Media Text, URL and Image in SingleItem",
     "type"                          : "checkbox",
     "default"                       : "false"
   },
