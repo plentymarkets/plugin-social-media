@@ -8,6 +8,6 @@ class SocialMediaSingleItemContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('SocialMedia::content.SocialMedia');
+        return $twig->render('SocialMedia::content.SocialMediaSingleItem');
     }
 }
