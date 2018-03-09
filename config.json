@@ -1,6 +1,6 @@
 [
   {
-    "tab"                           : "Social media settings - Header",
+    "tab"                           : "Social Button Settings - Standard",
     "key"                           : "social.data",
     "label"                         : "Show social media buttons",
     "type"                          : "multi_select",
@@ -18,17 +18,11 @@
     },
     "default"                       : "twitter, facebook, googleplus, pinterest"
   },
+
   {
-    "tab"                           : "Social media settings - Header",
-    "key"                           : "social.text",
-    "label"                         : "Social media text",
-    "type"                          : "text",
-    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-  },
-  {
-    "tab"                           : "Social media settings - Header",
+    "tab"                           : "Social Button Settings - Standard",
     "key"                           : "social.theme",
-    "label"                         : "Select the Theme of the Social Media Buttons, select only one!",
+    "label"                         : "Select the Theme of the Social Media Buttons",
     "type"                          : "dropdown",
     "possibleValues"                :
     {
@@ -37,34 +31,41 @@
       "white"                      : "White",
       "minimal"                    : "Minimal"
     },
-    "default"                       : "standard"
+    "default"                       : "minimal"
   },
   {
-    "tab"                           : "SocialMedia - Header",
+    "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.fixed",
-    "label"                         : "Use fixe Social Media URL and Image",
+    "label"                         : "Use fixe Social Media Text, URL and Image",
     "type"                          : "checkbox",
     "default"                       : "false"
   },
   {
-    "tab"                           : "SocialMedia - Header",
+    "tab"                           : "SocialMedia - Standard",
+    "key"                           : "social.text",
+    "label"                         : "Fix Social media text",
+    "type"                          : "text",
+    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
+  },
+  {
+    "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.url",
-    "label"                         : "Social media URL to share",
+    "label"                         : "Fix Social media URL to share",
     "type"                          : "text",
     "default"                       : "www.plentymarkets.eu"
   },
   {
-    "tab"                           : "SocialMedia - Header",
+    "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.mediaUrl",
-    "label"                         : "Social media Image to share",
+    "label"                         : "Fix Social media Image to share",
     "type"                          : "text",
     "default"                       : "URL to your image"
   },
 
   {
-    "tab"                           : "Social media settings - SingleItem",
+    "tab"                           : "Social Button Settings - SingleItem",
     "key"                           : "social.single.data",
-    "label"                         : "Show social media buttons",
+    "label"                         : "Show social media buttons in SingleItem",
     "type"                          : "multi_select",
     "possibleValues"                :
     {
@@ -81,16 +82,9 @@
     "default"                       : "twitter, facebook, googleplus, pinterest"
   },
   {
-    "tab"                           : "Social media settings - SingleItem",
-    "key"                           : "social.single.text",
-    "label"                         : "Social media text",
-    "type"                          : "text",
-    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-  },
-  {
-    "tab"                           : "Social media settings - SingleItem",
+    "tab"                           : "Social Button Settings - SingleItem",
     "key"                           : "social.single.theme",
-    "label"                         : "Select the Theme of the Social Media Buttons, select only one!",
+    "label"                         : "Select the Theme of the Social Media Buttons for SingleItem",
     "type"                          : "dropdown",
     "possibleValues"                :
     {
@@ -104,21 +98,28 @@
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.fixed",
-    "label"                         : "Use fixe Social Media URL and Image",
+    "label"                         : "Use fix Social Media URL and Image in SingleItem",
     "type"                          : "checkbox",
     "default"                       : "false"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
+    "key"                           : "social.single.text",
+    "label"                         : "Fix Social media text for SingleItem",
+    "type"                          : "text",
+    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
+  },
+  {
+    "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.url",
-    "label"                         : "Social media URL to share",
+    "label"                         : "Fix Social media URL to share",
     "type"                          : "text",
     "default"                       : "www.plentymarkets.eu"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.mediaUrl",
-    "label"                         : "Social media Image to share",
+    "label"                         : "Fix Social media Image to share",
     "type"                          : "text",
     "default"                       : "URL to your image"
   }
