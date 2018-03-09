@@ -37,6 +37,14 @@
       "white"                  : "White",
       "minimal"                    : "Minimal"
     },
+    "default"                       : "Standard"
+  },
+  {
+    "tab"                           : "SocialMedia",
+    "key"                           : "social.fixed",
+    "label"                         : "Use fixe Social Media URL and Image",
+    "type"                          : "checkbox",
+    "default"                       : "false"
   },
   {
     "tab"                           : "SocialMedia",
