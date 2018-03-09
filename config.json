@@ -29,7 +29,7 @@
     "tab"                           : "Social media settings",
     "key"                           : "social.theme",
     "label"                         : "Select the Theme of the Social Media Buttons, select only one!",
-    "type"                          : "select",
+    "type"                          : "multi_select",
     "possibleValues"                :
     {
       "standard"                     : "Standard",
