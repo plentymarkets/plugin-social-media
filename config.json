@@ -26,6 +26,19 @@
     "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
   },
   {
+    "tab"                           : "Social media settings",
+    "key"                           : "social.theme",
+    "label"                         : "Select the Theme of the Social Media Buttons, select only one!",
+    "type"                          : "select",
+    "possibleValues"                :
+    {
+      "standard"                     : "Standard",
+      "grey"                    : "Grey",
+      "white"                  : "White",
+      "minimal"                    : "Minimal"
+    },
+  },
+  {
     "tab"                           : "SocialMedia",
     "key"                           : "social.url",
     "label"                         : "Social media URL to share",
