@@ -23,7 +23,7 @@
     {% endfor %}
 
     data-services='[{{ dataServices }}]'
-    {% if socialFixed != "false"  %}
+    {% if socialFixed == "true"  %}
       data-title='{{ socialText }}'
       data-url='{{ socialUrl }}'
       data-media-url='{{ socialMediaUrl }}'

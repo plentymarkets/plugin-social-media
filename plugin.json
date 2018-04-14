@@ -21,13 +21,13 @@
   [
     {
       "key"           : "SocialMedia\\Containers\\SocialMediaContainer",
-      "name"          : "Social media buttons",
-      "description"   : "Display social media buttons in the online store."
+      "name"          : "Social Media Buttons",
+      "description"   : "Display Social Media Buttons in the online store."
     },
     {
       "key"           : "SocialMedia\\Containers\\SocialMediaSingleItemContainer",
-      "name"          : "Social media buttons for SingleItem",
-      "description"   : "Display social media buttons in the online store on the SingleItem."
+      "name"          : "Social Media Buttons for SingleItem",
+      "description"   : "Display Social Media Buttons on the item page in the online store."
     }
   ]
 }
