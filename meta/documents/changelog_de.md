@@ -9,6 +9,12 @@
 - Basis CSS für zweiten Container wurde hinzugefügt
 - Auswahl hinzugefügt, sodass die Darstellung der Buttons je Container via Dropdown-Liste ausgewählt werden kann
 
+## v1.0.1 (2017-11-17)
+
+### Behoben
+
+Durch einen Fehler konnte **Pinterest** nicht verknüpft werden. Dies wurde behoben.
+
 ## v1.0.0 (2017-02-22)
 
 ### Funktionen
