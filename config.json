@@ -1,126 +1,233 @@
-[
-  {
-    "tab"                           : "Social Button Settings - Standard",
-    "key"                           : "social.data",
-    "label"                         : "Show social media buttons",
-    "type"                          : "multi_select",
-    "possibleValues"                :
-    {
-      "twitter"                     : "Twitter",
-      "facebook"                    : "Facebook",
-      "googleplus"                  : "Google+",
-      "linkedin"                    : "LinkedIn",
-      "pinterest"                   : "Pinterest",
-      "xing"                        : "Xing",
-      "whatsapp"                    : "WhatsApp",
-      "tumblr"                      : "Tumblr",
-      "reddit"                      : "Reddit"
-    },
-    "default"                       : "twitter, facebook, googleplus, pinterest"
-  },
-
-  {
-    "tab"                           : "Social Button Settings - Standard",
-    "key"                           : "social.theme",
-    "label"                         : "Select the theme of the social media buttons",
-    "type"                          : "dropdown",
-    "possibleValues"                :
-    {
-      "standard"                   : "Standard",
-      "grey"                       : "Grey",
-      "white"                      : "White",
-      "minimal"                    : "Minimal"
-    },
-    "default"                       : "minimal"
-  },
-  {
-    "tab"                           : "SocialMedia - Standard",
-    "key"                           : "social.fixed",
-    "label"                         : "Use fix social media text, URL and image",
-    "type"                          : "checkbox",
-    "default"                       : "false"
-  },
-  {
-    "tab"                           : "SocialMedia - Standard",
-    "key"                           : "social.text",
-    "label"                         : "Fix social media text",
-    "type"                          : "text",
-    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-  },
-  {
-    "tab"                           : "SocialMedia - Standard",
-    "key"                           : "social.url",
-    "label"                         : "Fix social media URL to share",
-    "type"                          : "text",
-    "default"                       : "www.plentymarkets.eu"
-  },
-  {
-    "tab"                           : "SocialMedia - Standard",
-    "key"                           : "social.mediaUrl",
-    "label"                         : "Fix social media image to share",
-    "type"                          : "text",
-    "default"                       : "URL to your Image"
-  },
-
-  {
-    "tab"                           : "Social Button Settings - SingleItem",
-    "key"                           : "social.single.data",
-    "label"                         : "Show social media buttons in SingleItem",
-    "type"                          : "multi_select",
-    "possibleValues"                :
-    {
-      "twitter"                     : "Twitter",
-      "facebook"                    : "Facebook",
-      "googleplus"                  : "Google+",
-      "linkedin"                    : "LinkedIn",
-      "pinterest"                   : "Pinterest",
-      "xing"                        : "Xing",
-      "whatsapp"                    : "WhatsApp",
-      "tumblr"                      : "Tumblr",
-      "reddit"                      : "Reddit"
-    },
-    "default"                       : "twitter, facebook, googleplus, pinterest"
-  },
-  {
-    "tab"                           : "Social Button Settings - SingleItem",
-    "key"                           : "social.single.theme",
-    "label"                         : "Select the theme of the social media buttons for SingleItem",
-    "type"                          : "dropdown",
-    "possibleValues"                :
-    {
-      "standard"                   : "Standard",
-      "grey"                       : "Grey",
-      "white"                      : "White",
-      "minimal"                    : "Minimal"
-    },
-    "default"                       : "standard"
-  },
-  {
-    "tab"                           : "SocialMedia - SingleItem",
-    "key"                           : "social.single.fixed",
-    "label"                         : "Use fix social media text, URL and image in SingleItem",
-    "type"                          : "checkbox",
-    "default"                       : "false"
-  },
-  {
-    "tab"                           : "SocialMedia - SingleItem",
-    "key"                           : "social.single.text",
-    "label"                         : "Fix social media text for SingleItem",
-    "type"                          : "text",
-    "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-  },
-  {
-    "tab"                           : "SocialMedia - SingleItem",
-    "key"                           : "social.single.url",
-    "label"                         : "Fix social media URL to share",
-    "type"                          : "text",
-    "default"                       : "www.plentymarkets.eu"
-  },
-  {
-    "tab"                           : "SocialMedia - SingleItem",
-    "key"                           : "social.single.mediaUrl",
-    "label"                         : "Fix social media image to share",
-    "type"                          : "text",
-    "default"                       : "URL to your Image"
+{
+  "formatVersion": 1,
+  "menu": {
+      "Config.SocialButtonSettingsStandardTab": {
+          "label": "Config.SocialButtonSettingsStandardTab",
+          "formFields": {
+              "social.data": {
+                  "type": "multiCheckBox",
+                  "required": false,
+                  "label": "Config.socialDataLabel",
+                  "options": {
+                      "defaultValue": "twitter, facebook, googleplus, pinterest",
+                      "checkBoxValues": [
+                          {
+                              "value": "twitter",
+                              "caption": "Config.socialDataPossibleValueTwitter"
+                          },
+                          {
+                              "value": "facebook",
+                              "caption": "Config.socialDataPossibleValueFacebook"
+                          },
+                          {
+                              "value": "googleplus",
+                              "caption": "Config.socialDataPossibleValueGoogleplus"
+                          },
+                          {
+                              "value": "linkedin",
+                              "caption": "Config.socialDataPossibleValueLinkedin"
+                          },
+                          {
+                              "value": "pinterest",
+                              "caption": "Config.socialDataPossibleValuePinterest"
+                          },
+                          {
+                              "value": "xing",
+                              "caption": "Config.socialDataPossibleValueXing"
+                          },
+                          {
+                              "value": "whatsapp",
+                              "caption": "Config.socialDataPossibleValueWhatsapp"
+                          },
+                          {
+                              "value": "tumblr",
+                              "caption": "Config.socialDataPossibleValueTumblr"
+                          },
+                          {
+                              "value": "reddit",
+                              "caption": "Config.socialDataPossibleValueReddit"
+                          }
+                      ]
+                  }
+              },
+              "social.theme": {
+                  "type": "selectBox",
+                  "required": false,
+                  "label": "Config.socialThemeLabel",
+                  "options": {
+                      "defaultValue": "minimal",
+                      "selectBoxValues": [
+                          {
+                              "value": "standard",
+                              "caption": "Config.socialThemePossibleValueStandard"
+                          },
+                          {
+                              "value": "grey",
+                              "caption": "Config.socialThemePossibleValueGrey"
+                          },
+                          {
+                              "value": "white",
+                              "caption": "Config.socialThemePossibleValueWhite"
+                          },
+                          {
+                              "value": "minimal",
+                              "caption": "Config.socialThemePossibleValueMinimal"
+                          }
+                      ]
+                  }
+              }
+          }
+      },
+      "Config.SocialMediaStandardTab": {
+          "label": "Config.SocialMediaStandardTab",
+          "formFields": {
+              "social.fixed": {
+                  "type": "checkBox",
+                  "required": false,
+                  "label": "Config.socialFixedLabel",
+                  "options": {
+                      "defaultValue": "false"
+                  }
+              },
+              "social.text": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialTextLabel",
+                  "options": {
+                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
+                  }
+              },
+              "social.url": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialUrlLabel",
+                  "options": {
+                      "defaultValue": "www.plentymarkets.eu"
+                  }
+              },
+              "social.mediaUrl": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialMediaUrlLabel",
+                  "options": {
+                      "defaultValue": "URL to your Image"
+                  }
+              }
+          }
+      },
+      "Config.SocialButtonSettingsSingleItemTab": {
+          "label": "Config.SocialButtonSettingsSingleItemTab",
+          "formFields": {
+              "social.single.data": {
+                  "type": "multiCheckBox",
+                  "required": false,
+                  "label": "Config.socialSingleDataLabel",
+                  "options": {
+                      "defaultValue": "twitter, facebook, googleplus, pinterest",
+                      "checkBoxValues": [
+                          {
+                              "value": "twitter",
+                              "caption": "Config.socialSingleDataPossibleValueTwitter"
+                          },
+                          {
+                              "value": "facebook",
+                              "caption": "Config.socialSingleDataPossibleValueFacebook"
+                          },
+                          {
+                              "value": "googleplus",
+                              "caption": "Config.socialSingleDataPossibleValueGoogleplus"
+                          },
+                          {
+                              "value": "linkedin",
+                              "caption": "Config.socialSingleDataPossibleValueLinkedin"
+                          },
+                          {
+                              "value": "pinterest",
+                              "caption": "Config.socialSingleDataPossibleValuePinterest"
+                          },
+                          {
+                              "value": "xing",
+                              "caption": "Config.socialSingleDataPossibleValueXing"
+                          },
+                          {
+                              "value": "whatsapp",
+                              "caption": "Config.socialSingleDataPossibleValueWhatsapp"
+                          },
+                          {
+                              "value": "tumblr",
+                              "caption": "Config.socialSingleDataPossibleValueTumblr"
+                          },
+                          {
+                              "value": "reddit",
+                              "caption": "Config.socialSingleDataPossibleValueReddit"
+                          }
+                      ]
+                  }
+              },
+              "social.single.theme": {
+                  "type": "selectBox",
+                  "required": false,
+                  "label": "Config.socialSingleThemeLabel",
+                  "options": {
+                      "defaultValue": "standard",
+                      "selectBoxValues": [
+                          {
+                              "value": "standard",
+                              "caption": "Config.socialSingleThemePossibleValueStandard"
+                          },
+                          {
+                              "value": "grey",
+                              "caption": "Config.socialSingleThemePossibleValueGrey"
+                          },
+                          {
+                              "value": "white",
+                              "caption": "Config.socialSingleThemePossibleValueWhite"
+                          },
+                          {
+                              "value": "minimal",
+                              "caption": "Config.socialSingleThemePossibleValueMinimal"
+                          }
+                      ]
+                  }
+              }
+          }
+      },
+      "Config.SocialMediaSingleItemTab": {
+          "label": "Config.SocialMediaSingleItemTab",
+          "formFields": {
+              "social.single.fixed": {
+                  "type": "checkBox",
+                  "required": false,
+                  "label": "Config.socialSingleFixedLabel",
+                  "options": {
+                      "defaultValue": "false"
+                  }
+              },
+              "social.single.text": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialSingleTextLabel",
+                  "options": {
+                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
+                  }
+              },
+              "social.single.url": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialSingleUrlLabel",
+                  "options": {
+                      "defaultValue": "www.plentymarkets.eu"
+                  }
+              },
+              "social.single.mediaUrl": {
+                  "type": "inputText",
+                  "required": false,
+                  "label": "Config.socialSingleMediaUrlLabel",
+                  "options": {
+                      "defaultValue": "URL to your Image"
+                  }
+              }
+          }
+      }
   }
-]
+}
