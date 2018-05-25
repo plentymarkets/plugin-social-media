@@ -1,5 +1,5 @@
 {
-  "version"           : "1.0.1",
+  "version"           : "1.1.0",
   "name"              : "SocialMedia",
   "description"       : "plentymarkets plugin for social media.",
   "author"            : "plentymarkets GmbH",
@@ -21,8 +21,13 @@
   [
     {
       "key"           : "SocialMedia\\Containers\\SocialMediaContainer",
-      "name"          : "Social media buttons",
+      "name"          : "Social Media Buttons",
       "description"   : "Display social media buttons in the online store."
+    },
+    {
+      "key"           : "SocialMedia\\Containers\\SocialMediaSingleItemContainer",
+      "name"          : "Social Media Buttons for SingleItem",
+      "description"   : "Display social media buttons on the item page in the online store."
     }
   ]
 }

@@ -2,15 +2,15 @@
 <link href="{{ plugin_path('SocialMedia') }}/css/SocialStyles.css" rel="stylesheet">
 <script async src="{{ plugin_path('SocialMedia') }}/js/shariff.complete.js"></script>
 
-{% set socialMediaData = config("SocialMedia.social.data") | split(', ') %}
+{% set socialMediaData = config("SocialMedia.social.single.data") | split(', ') %}
 {% set dataServices = "" %}
-{% set socialText = config("SocialMedia.social.text") %}
-{% set socialUrl = config("SocialMedia.social.url") %}
-{% set socialMediaUrl = config("SocialMedia.social.mediaUrl") %}
-{% set socialTheme = config("SocialMedia.social.theme") %}
-{% set socialFixed = config("SocialMedia.social.fixed") %}
+{% set socialText = config("SocialMedia.social.single.text") %}
+{% set socialUrl = config("SocialMedia.social.single.url") %}
+{% set socialMediaUrl = config("SocialMedia.social.single.mediaUrl") %}
+{% set socialTheme = config("SocialMedia.social.single.theme") %}
+{% set socialFixed = config("SocialMedia.social.single.fixed") %}
 
-<div class="shariff socialbar hidden-sm-down pull-xs-left"
+<div class="shariff socialbar singleItem"
 
     {% for i in 0..socialMediaData|length %}
         {% if i != socialMediaData|length %}
@@ -23,7 +23,7 @@
     {% endfor %}
 
     data-services='[{{ dataServices }}]'
-    {% if socialFixed == "true"  %}
+    {% if socialFixed == "true" %}
       data-title='{{ socialText }}'
       data-url='{{ socialUrl }}'
       data-media-url='{{ socialMediaUrl }}'

@@ -4,6 +4,9 @@
     }
 }
 
-.pull-xs-left {
-    float: left !important;
+.pull-xs-left {    float: left !important; }
+
+/* if in single item after basket */
+.single-rightside .socialbar.singleItem{
+  margin: .5rem .3rem;
 }
