@@ -2,7 +2,7 @@
   {
     "tab"                           : "Social Button Settings - Standard",
     "key"                           : "social.data",
-    "label"                         : "Show Social Media Buttons",
+    "label"                         : "Show social media buttons",
     "type"                          : "multi_select",
     "possibleValues"                :
     {
@@ -22,7 +22,7 @@
   {
     "tab"                           : "Social Button Settings - Standard",
     "key"                           : "social.theme",
-    "label"                         : "Select the Theme of the Social Media Buttons",
+    "label"                         : "Select the theme of the social media buttons",
     "type"                          : "dropdown",
     "possibleValues"                :
     {
@@ -36,28 +36,28 @@
   {
     "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.fixed",
-    "label"                         : "Use fix Social Media Text, URL and Image",
+    "label"                         : "Use fix social media text, URL and image",
     "type"                          : "checkbox",
     "default"                       : "false"
   },
   {
     "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.text",
-    "label"                         : "Fix Social Media Text",
+    "label"                         : "Fix social media text",
     "type"                          : "text",
     "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
   },
   {
     "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.url",
-    "label"                         : "Fix Social Media URL to share",
+    "label"                         : "Fix social media URL to share",
     "type"                          : "text",
     "default"                       : "www.plentymarkets.eu"
   },
   {
     "tab"                           : "SocialMedia - Standard",
     "key"                           : "social.mediaUrl",
-    "label"                         : "Fix Social Media Image to share",
+    "label"                         : "Fix social media image to share",
     "type"                          : "text",
     "default"                       : "URL to your Image"
   },
@@ -65,7 +65,7 @@
   {
     "tab"                           : "Social Button Settings - SingleItem",
     "key"                           : "social.single.data",
-    "label"                         : "Show Social Media Buttons in SingleItem",
+    "label"                         : "Show social media buttons in SingleItem",
     "type"                          : "multi_select",
     "possibleValues"                :
     {
@@ -84,7 +84,7 @@
   {
     "tab"                           : "Social Button Settings - SingleItem",
     "key"                           : "social.single.theme",
-    "label"                         : "Select the Theme of the Social Media Buttons for SingleItem",
+    "label"                         : "Select the theme of the social media buttons for SingleItem",
     "type"                          : "dropdown",
     "possibleValues"                :
     {
@@ -98,28 +98,28 @@
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.fixed",
-    "label"                         : "Use fix Social Media Text, URL and Image in SingleItem",
+    "label"                         : "Use fix social media text, URL and image in SingleItem",
     "type"                          : "checkbox",
     "default"                       : "false"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.text",
-    "label"                         : "Fix Social Media Text for SingleItem",
+    "label"                         : "Fix social media text for SingleItem",
     "type"                          : "text",
     "default"                       : "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.url",
-    "label"                         : "Fix Social Media URL to share",
+    "label"                         : "Fix social media URL to share",
     "type"                          : "text",
     "default"                       : "www.plentymarkets.eu"
   },
   {
     "tab"                           : "SocialMedia - SingleItem",
     "key"                           : "social.single.mediaUrl",
-    "label"                         : "Fix Social Media Image to share",
+    "label"                         : "Fix social media image to share",
     "type"                          : "text",
     "default"                       : "URL to your Image"
   }
