@@ -8,7 +8,7 @@ Aktivieren Sie die Sozialen Medien, die Sie im Webshop anzeigen möchten. Die pa
 
 ##### Soziale Medien aktivieren:
 
-Ab Version 1.1.0 gibt es einen zweiten Container für die Darstellung der Social Media Buttons direkt am Artikel. Daneben wurden die Konfigurationsmöglichkeiten erweitert. Es gibt die zwei Container SocialMedia und SocialMediaSingleItem. SocialMediaSingleItem ist für die Anzeige der Buttons am Artikel vorgesehen.
+Ab Version 1.1.0 gibt es einen zweiten Container für die Darstellung der Social Media Buttons direkt am Artikel. Daneben wurden die Konfigurationsmöglichkeiten erweitert. Es gibt die zwei Container SocialMedia und SocialMediaSingleItem. SocialMediaSingleItem ist für die Anzeige der Buttons direkt am Artikel vorgesehen.
 
 Einstellungen können für beide Container separat erfolgen. In den Konfigurationstabs "Standard" werden die Einstellungen für den Container SocialMedia getroffen. In den Tabs "SingleItem" werden die Einstellungen für den SocialMediaSingleItem Container getroffen.
 
@@ -37,27 +37,27 @@ Einstellungen können für beide Container separat erfolgen. In den Konfiguratio
 </thead>
 <tbody>   
 <tr>
-<td><b>Show Social Media Buttons</b></td>  
+<td><b>Show social media buttons</b></td>  
 <td>Eine, mehrere oder <strong>ALLE</strong> Soziale Medien wählen, um die Buttons im Webshop anzuzeigen.</td>
 </tr>
 <tr>
-<td><b>Select the Theme of the Social Media Buttons</b></td>  
-<td>Wählen Sie die Darstellung der Social Buttons aus. Es stehen vier Themen zur Auswahl: Standard, Grey, White und Minimal</td>
+<td><b>Select the theme of the social media buttons</b></td>  
+<td>Wählen Sie die Darstellung der Social Media Buttons aus. Es stehen vier Themen zur Auswahl: Standard, Grey, White und Minimal</td>
 </tr>
 <tr>
-<td><b>Use fix Social Media Text, URL and Image</b></td>  
+<td><b>Use fix social media text, URL and image</b></td>  
 <td>Ist kein Haken gesetzt, wird immer die aktuell offene Seite mit den dort vorhandenen Medien-Informationen geteilt. Wenn Sie einen Haken setzen, wird immer eine feste URL, ein fixer Text und ein fixes Bild geteilt.</td>
 </tr>
 <tr>
-<td><b>Fix Social Media Text</b></td>  
+<td><b>Fix social media text</b></td>  
 <td>Text eingeben, der über die gewählten Sozialen Medien geteilt werden soll.</td>
 </tr>
 <tr>
-<td><b>Fix Social Media URL to share</b></td>  
+<td><b>Fix social media URL to share</b></td>  
 <td>Hinterlegen Sie hier die URL die geteilt werden soll, bspw. die URL Ihrer Startseite.</td>
 </tr>
 <tr>
-<td><b>Fix Social Media Image to share</b></td>  
+<td><b>Fix social media image to share</b></td>  
 <td>Hinterlegen Sie hier die URL zu dem Bild, welches Sie für die Sozialen Netzwerke verwenden möchten.</td>
 </tr>
 </tbody>
@@ -73,19 +73,17 @@ Hierfür sind in den Templates in Ceres an relevanten Stellen Container hinterle
 
 ##### SocialMedia Container
 
-1. Klicken Sie auf **Plugins**.
-2. Wechseln Sie in das Tab **Content**.
-3. Wählen Sie den Bereich **Social media buttons**.
-4. Wählen Sie einen, mehrere oder **ALLE** Container, in denen Sie die Buttons anzeigen möchten, z.B. **Header: Left header container**.
-5. **Speichern** Sie die Einstellungen.<br /> → Die Sozialen Medien werden im gewählten Container im Webshop angezeigt.
+1. Öffnen Sie das Menü **CMS » Container-Verknüpfungen**
+2. Wählen Sie den Bereich **Social media buttons**.
+3. Wählen Sie einen, mehrere oder **ALLE** Container, in denen Sie die Buttons anzeigen möchten, z.B. **Header: Left header container**.
+4. **Speichern** Sie die Einstellungen.<br /> → Die Sozialen Medien werden im gewählten Container im Webshop angezeigt.
 
 ##### SocialMediaSingleItem Container
 
-1. Klicken Sie auf **Plugins**.
-2. Wechseln Sie in das Tab **Content**.
-3. Wählen Sie den Bereich **Social media buttons for SingleItem**.
-4. Wählen Sie den Container **SingleItem: Additional content after "Add to shopping cart" button**, es kann alternativ natürlich auch ein anderer Container zu Anzeige genutzt werden.
-5. **Speichern** Sie die Einstellungen.<br /> → Die Sozialen Medien werden im gewählten Container im Webshop angezeigt.
+1. Öffnen Sie das Menü **CMS » Container-Verknüpfungen**
+2. Wählen Sie den Bereich **Social media buttons for SingleItem**.
+3. Wählen Sie den Container **SingleItem: Additional content after "Add to shopping cart" button**, es kann alternativ natürlich auch ein anderer Container zu Anzeige genutzt werden.
+4. **Speichern** Sie die Einstellungen.<br /> → Die Sozialen Medien werden im gewählten Container im Webshop angezeigt.
 
 ## Lizenz
 
