@@ -1,6 +1,6 @@
 # Release Notes für SocialMedia
 
-## v1.1.0 (2018-03-09)
+## v1.1.0 (2018-05-25)
 
 ### Hinzugefügt
 - Ein weiterer Container für die Anzeige-Buttons direkt am Artikel wurde hinzugefügt.

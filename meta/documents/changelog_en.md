@@ -1,5 +1,14 @@
 # Release Notes for SocialMedia
 
+## v1.1.0 (2018-05-25)
+
+### Added
+- An additional container for displaying social media buttons on the single item view has been added.
+- The settings for each container can now be carried out separately.
+- An option has been added, which allows users to determine whether fix or dynamic URLs should be shared on social media pages.
+- Basic CSS for the second container has been added.
+- The style of buttons can now be selected from a drop-down list for each container.
+
 ## v1.0.1 (2017-11-17)
 
 ### Fixed
