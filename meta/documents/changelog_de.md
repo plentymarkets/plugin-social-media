@@ -1,8 +1,15 @@
 # Release Notes für SocialMedia
 
+## v1.1.1 (2019-11-11)
+
+### Behoben
+
+Durch einen Fehler wurden Tooltips nicht in der richtigen Sprache angezeigt. Dieses Verhalten wurde behoben.
+
 ## v1.1.0 (2018-05-25)
 
 ### Hinzugefügt
+
 - Ein weiterer Container für die Anzeige-Buttons direkt am Artikel wurde hinzugefügt.
 - Für jeden Container können nun individuelle Einstellungen getroffen werden.
 - Option hinzugefügt, sodass per Konfiguration entschieden werden kann, ob eine feste URL oder dynamische URLs geteilt werden sollen.

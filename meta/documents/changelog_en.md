@@ -1,8 +1,15 @@
 # Release Notes for SocialMedia
 
+## v1.1.1 (2019-11-11)
+
+### Fixed
+
+Due to an error, tooltips were not displayed in the correct language. This behaviour has been fixed.
+
 ## v1.1.0 (2018-05-25)
 
 ### Added
+
 - An additional container for displaying social media buttons on the single item view has been added.
 - The settings for each container can now be carried out separately.
 - An option has been added, which allows users to determine whether fix or dynamic URLs should be shared on social media pages.
