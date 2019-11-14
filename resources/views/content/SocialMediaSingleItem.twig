@@ -21,9 +21,9 @@
 
     data-services='[{{ dataServices }}]'
     {% if socialFixed == "true" %}
-    data-title='{{ trans("SocialMedia::Template.singleItemSocialText") }}'
-    data-url='{{ trans("SocialMedia::Template.singleItemSocialUrl") }}'
-    data-media-url='{{ trans("SocialMedia::Template.singleItemSocialMediaUrl") }}'
+      data-title='{{ trans("SocialMedia::Template.singleItemSocialText") }}'
+      data-url='{{ trans("SocialMedia::Template.singleItemSocialUrl") }}'
+      data-media-url='{{ trans("SocialMedia::Template.singleItemSocialMediaUrl") }}'
     {% endif %}
     data-theme='{{ socialTheme }}'
     data-lang='{{ services.sessionStorage.getLang() }}'>
