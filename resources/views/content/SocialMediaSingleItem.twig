@@ -4,9 +4,6 @@
 
 {% set socialMediaData = config("SocialMedia.social.single.data") | split(', ') %}
 {% set dataServices = "" %}
-{% set socialText = config("SocialMedia.social.single.text") %}
-{% set socialUrl = config("SocialMedia.social.single.url") %}
-{% set socialMediaUrl = config("SocialMedia.social.single.mediaUrl") %}
 {% set socialTheme = config("SocialMedia.social.single.theme") %}
 {% set socialFixed = config("SocialMedia.social.single.fixed") %}
 
@@ -24,9 +21,9 @@
 
     data-services='[{{ dataServices }}]'
     {% if socialFixed == "true" %}
-      data-title='{{ socialText }}'
-      data-url='{{ socialUrl }}'
-      data-media-url='{{ socialMediaUrl }}'
+    data-title='{{ trans("SocialMedia::Template.singleItemSocialText") }}'
+    data-url='{{ trans("SocialMedia::Template.singleItemSocialUrl") }}'
+    data-media-url='{{ trans("SocialMedia::Template.singleItemSocialMediaUrl") }}'
     {% endif %}
     data-theme='{{ socialTheme }}'
     data-lang='{{ services.sessionStorage.getLang() }}'>

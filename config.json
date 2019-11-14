@@ -88,30 +88,6 @@
                   "options": {
                       "defaultValue": "false"
                   }
-              },
-              "social.text": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialTextLabel",
-                  "options": {
-                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-                  }
-              },
-              "social.url": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialUrlLabel",
-                  "options": {
-                      "defaultValue": "www.plentymarkets.eu"
-                  }
-              },
-              "social.mediaUrl": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialMediaUrlLabel",
-                  "options": {
-                      "defaultValue": "URL to your Image"
-                  }
               }
           }
       },
@@ -201,30 +177,6 @@
                   "label": "Config.socialSingleFixedLabel",
                   "options": {
                       "defaultValue": "false"
-                  }
-              },
-              "social.single.text": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialSingleTextLabel",
-                  "options": {
-                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-                  }
-              },
-              "social.single.url": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialSingleUrlLabel",
-                  "options": {
-                      "defaultValue": "www.plentymarkets.eu"
-                  }
-              },
-              "social.single.mediaUrl": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialSingleMediaUrlLabel",
-                  "options": {
-                      "defaultValue": "URL to your Image"
                   }
               }
           }
