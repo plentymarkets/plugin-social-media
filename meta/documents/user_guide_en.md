@@ -48,12 +48,8 @@ You can carry out settings for the two containers separately. Settings for the S
 </tr>
 <tr>
 <td><b>Use fix social media text, URL and image</b></td>  
-<td>If the box is unchecked, clicking the social media button will always share the website that the user is currently visiting as well as the corresponding media information. If the box is checked, clicking the social media button will share a fix URL, text or image.
+<td>If the box is unchecked, clicking the social media button will always share the website that the user is currently visiting as well as the corresponding media information. If the box is checked, clicking the social media button will share a fix URL, text or image. The text can be changed in the **CMS » Multilingualism** menu.
 </td>
-</tr>
-<tr>
-<td><b>Fix social media text</b></td>  
-<td>Enter a text that you want users to share via social media pages.</td>
 </tr>
 <tr>
 <td><b>Fix social media URL to share</b></td>  

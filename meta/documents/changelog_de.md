@@ -1,10 +1,16 @@
 # Release Notes für SocialMedia
 
+## v1.2.0 (2019-11-14)
+
+### Geändert
+
+- Der Text, der über die gewählten sozialen Medien geteilt werden soll, wurde aus den Einstellungen entfernt und im Menü **CMS » Mehrsprachigkeit** hinzugefügt.
+
 ## v1.1.1 (2019-11-11)
 
 ### Behoben
 
-Durch einen Fehler wurden Tooltips nicht in der richtigen Sprache angezeigt. Dieses Verhalten wurde behoben.
+- Durch einen Fehler wurden Tooltips nicht in der richtigen Sprache angezeigt. Dieses Verhalten wurde behoben.
 
 ## v1.1.0 (2018-05-25)
 

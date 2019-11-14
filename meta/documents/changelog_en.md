@@ -1,10 +1,16 @@
 # Release Notes for SocialMedia
 
+## v1.2.0 (2019-11-14)
+
+### Changed
+
+- The text that you want users to share via social media pages has been removed from the plugin settings. The text has been added to the **CMS » Multilingualism** menu.
+
 ## v1.1.1 (2019-11-11)
 
 ### Fixed
 
-Due to an error, tooltips were not displayed in the correct language. This behaviour has been fixed.
+- Due to an error, tooltips were not displayed in the correct language. This behaviour has been fixed.
 
 ## v1.1.0 (2018-05-25)
 

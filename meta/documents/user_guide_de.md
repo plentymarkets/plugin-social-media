@@ -46,11 +46,7 @@ Einstellungen können für beide Container separat erfolgen. In den Konfiguratio
 </tr>
 <tr>
 <td><b>Festgelegten Social Media Text, URL und Bild verwenden</b></td>  
-<td>Ist kein Haken gesetzt, wird immer die aktuell offene Seite mit den dort vorhandenen Medien-Informationen geteilt. Wenn Sie einen Haken setzen, wird immer eine feste URL, ein fixer Text und ein fixes Bild geteilt.</td>
-</tr>
-<tr>
-<td><b>Social Media Text festlegen, der geteilt wird</b></td>  
-<td>Text eingeben, der über die gewählten sozialen Medien geteilt werden soll.</td>
+<td>Ist kein Haken gesetzt, wird immer die aktuell offene Seite mit den dort vorhandenen Medien-Informationen geteilt. Wenn Sie einen Haken setzen, wird immer eine feste URL, ein fixer Text und ein fixes Bild geteilt. Der Text kann im Menü **CMS » Mehrsprachigkeit** geändert werden.</td>
 </tr>
 <tr>
 <td><b>Social Media URL festlegen, die geteilt wird</b></td>  

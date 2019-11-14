@@ -1,0 +1,17 @@
+{
+  "sections":
+  [
+    {
+      "name": "Config.socialMedia",
+      "prefix": "social"
+    },
+    {
+      "name": "Config.singleItem",
+      "prefix": "singleItemSocial"
+    }
+  ],
+  "ignoredTranslationFiles":
+  [
+    "Config.properties"
+  ]
+}

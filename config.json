@@ -89,14 +89,6 @@
                       "defaultValue": "false"
                   }
               },
-              "social.text": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialTextLabel",
-                  "options": {
-                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
-                  }
-              },
               "social.url": {
                   "type": "inputText",
                   "required": false,
@@ -201,14 +193,6 @@
                   "label": "Config.socialSingleFixedLabel",
                   "options": {
                       "defaultValue": "false"
-                  }
-              },
-              "social.single.text": {
-                  "type": "inputText",
-                  "required": false,
-                  "label": "Config.socialSingleTextLabel",
-                  "options": {
-                      "defaultValue": "WOW! Look at this store www.YOUR-PLENTYSTORE.co.uk"
                   }
               },
               "social.single.url": {
