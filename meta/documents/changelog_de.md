@@ -1,10 +1,20 @@
 # Release Notes für SocialMedia
 
+## v1.2.0 (2019-11-14)
+
+### TODO
+
+- Sollte in der Plugin-Konfiguration ein Text hinterlegt worden sein, der über die gewählten sozialen Medien geteilt werden soll, so muss dieser Text im Menü **CMS » Mehrsprachigkeit** erneut eingegeben werden. Dieser Text kann nun auch übersetzt werden.
+
+### Geändert
+
+- Der Text, der über die gewählten sozialen Medien geteilt werden soll, wurde aus den Einstellungen entfernt und im Menü **CMS » Mehrsprachigkeit** hinzugefügt.
+
 ## v1.1.1 (2019-11-11)
 
 ### Behoben
 
-Durch einen Fehler wurden Tooltips nicht in der richtigen Sprache angezeigt. Dieses Verhalten wurde behoben.
+- Durch einen Fehler wurden Tooltips nicht in der richtigen Sprache angezeigt. Dieses Verhalten wurde behoben.
 
 ## v1.1.0 (2018-05-25)
 

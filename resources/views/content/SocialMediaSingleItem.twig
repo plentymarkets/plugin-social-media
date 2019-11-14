@@ -4,7 +4,6 @@
 
 {% set socialMediaData = config("SocialMedia.social.single.data") | split(', ') %}
 {% set dataServices = "" %}
-{% set socialText = config("SocialMedia.social.single.text") %}
 {% set socialUrl = config("SocialMedia.social.single.url") %}
 {% set socialMediaUrl = config("SocialMedia.social.single.mediaUrl") %}
 {% set socialTheme = config("SocialMedia.social.single.theme") %}
@@ -24,7 +23,7 @@
 
     data-services='[{{ dataServices }}]'
     {% if socialFixed == "true" %}
-      data-title='{{ socialText }}'
+      data-title='{{ trans("SocialMedia::Template.singleItemSocialText") }}'
       data-url='{{ socialUrl }}'
       data-media-url='{{ socialMediaUrl }}'
     {% endif %}
