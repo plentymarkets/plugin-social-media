@@ -13,7 +13,9 @@
   "categories"        : ["3527"],
   "keywords"          : ["plentymarkets", "plugins", "layout", "widget", "social media"],
   "type"              : "general",
-  "require"           : ["IO"],
+  "require"           : {
+      "IO"   : "< 5.0.0"
+  },
   "namespace"         : "SocialMedia",
   "serviceProvider"   : "SocialMedia\\Providers\\SocialMediaServiceProvider",
   "javaScriptFiles"   : [],
