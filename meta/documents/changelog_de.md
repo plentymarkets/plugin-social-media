@@ -1,5 +1,11 @@
 # Release Notes für SocialMedia
 
+## v1.2.1 (2021-01-11)
+
+### Geändert
+
+- Um Fehler zu vermeiden, wurde die Abhängigkeit zum Plugin IO in Version 4.6 oder darunter fest im Social Media-Plugin verbaut.
+
 ## v1.2.0 (2019-11-14)
 
 ### TODO

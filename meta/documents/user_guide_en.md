@@ -1,6 +1,9 @@
 # Social Media – Displaying social media buttons in the online store
 
-**Social Media** is a widget for plentymarkets 7 online stores. This plugin allows you to display social media buttons at any desired location in the online store and share content on the activated social media pages.
+**Social Media** is a widget for plentymarkets online shops. This plugin allows you to display social media buttons at any desired location in the online store and share content on the activated social media pages.
+
+**Important**:
+The plugin **Social Media** requires the plugins Ceres and IO below version 5.0.0. The most current versions of these plugins that are still compatible with the Sovial media plugin are versions 4.6.0.
 
 ## Setting up Social Media in plentymarkets
 

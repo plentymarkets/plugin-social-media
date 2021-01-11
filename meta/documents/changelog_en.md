@@ -1,5 +1,11 @@
 # Release Notes for SocialMedia
 
+## v1.2.1 (2021-01-11)
+
+### Changed
+
+- In order to reduce errors, the requirement of the plugin IO in version 4.6 or below has been integrated into the Social Media plugin.
+
 ## v1.2.0 (2019-11-14)
 
 ### TODO
